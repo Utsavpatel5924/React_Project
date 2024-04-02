@@ -3,14 +3,14 @@ import './App.css';
 import Greting from './Components/Greating';
 import Card from './Components/Card';
 import Data from './Components/Data';
-
+import Emoji from './Components/Emoji';
 
 
 function App() {
   return (
     <div className="App">
       {/* <Greting/> */}
-      <div className='text-8xl bg-slate-400 mx-auto text-blue-500'>This is Devloper </div>
+      {/* <div className='text-8xl bg-slate-400 mx-auto text-blue-500'>This is Devloper </div> */}
      
      {/*\ simpl card \*/}
      
@@ -22,14 +22,19 @@ function App() {
 
 
       {/* map card */}
-      <div className='flex justify-around flex-wrap'>
+      {/* <div className='flex justify-around flex-wrap'>
         {Data.map((cvalue,ind,arr)=>{
           console.log(cvalue,"Cvalue")
           return<Card className='mt-5' key={ind} name={cvalue.name} cource={cvalue.cource} disc={cvalue.disc} img={cvalue.img} />
         })}
 
-      </div>
+      </div> */}
+
+      {/* Emoji */}
+
       
+      <Emoji  a="😆" b="😆" c="😆" />
+
     </div>
   );
 }
