@@ -4,6 +4,7 @@ import Greting from './Components/Greating';
 import Card from './Components/Card';
 import Data from './Components/Data';
 import Emoji from './Components/Emoji';
+import Counter from './Components/Counter';
 
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
       {/* Emoji */}
 
       
-      <Emoji  a="😆" b="😆" c="😆" />
+      {/* <Emoji  a="😆" b="😆" c="😆" /> */}
+
+      <Counter/>
 
     </div>
   );
